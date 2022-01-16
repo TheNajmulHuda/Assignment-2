@@ -1,0 +1,100 @@
+body{
+    box-sizing: border-box;
+    background: rgb(233, 225, 225);
+    margin: 0;
+    padding: 30px 10%;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.float h1{
+    margin-right: auto;
+    font-size: 30px;
+}
+.below-header{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.below-header-img{
+    height: 100px;
+    width: 70px;
+}
+.header--content{
+    margin-top: 150px;
+}
+.below-header h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: lightcoral;
+    margin: 0;
+}
+.below-header p{
+    font-size: 20px;
+}
+.brands{
+    display: flex;
+    justify-content: center;  
+}
+.logos{
+    margin: 0 40px;
+    justify-content: center;
+    height:40px;
+    width: 120px;
+}
+.float{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    text-align: center;
+    font-size: 40px;
+    color: chocolate;
+}
+.cards{
+    background: rgba(0, 0, 0, 0.562);
+    width: 350px;
+    height: 550px;
+    padding: 25px; 
+}
+.devices{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+   
+}
+nav{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    display: inline-block;
+    padding:0px 10px;
+}
+li a {
+    
+    font-size: 16px;
+    font-weight: 400;
+    color: #138fb8;
+    text-decoration:none;
+}
+
+li a:hover{
+    transition: all 0.3s ease 0s;
+    color: rgb(21, 22, 20);
+}
+h2{
+    font-size: 20px;
+}
+.checked{
+    color: crimson;
+}
+.rating{
+    margin-top: -15px;
+}
